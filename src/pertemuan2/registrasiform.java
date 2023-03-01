@@ -4,8 +4,8 @@
  */
 package pertemuan2;
 
-import javax.swing.JFrame;
-import javax.swing.JLabel;
+import javax.swing.JButton;
+import javax.swing.*;
 
 /**
  *
@@ -29,7 +29,55 @@ public class registrasiform {
         label.setBounds(450, 100, 1000, 100);
         f.add(label);
         
+        JLabel name = new JLabel();
+        name.setText("Nama");
+        name.setBounds(80, 40, 700, 250);
+        f.add(name);
         
+        JLabel username = new JLabel();
+        username.setText("Username");
+        username.setBounds(80, 100, 700, 250);
+        f.add(username);
+        
+        JLabel email = new JLabel();
+        email.setText("Email");
+        email.setBounds(80, 160, 700, 250);
+        f.add(email);
+        
+        JLabel nohp = new JLabel();
+        nohp.setText("No. Hp");
+        nohp.setBounds(80, 220, 700, 250);
+        f.add(nohp);
+        
+        JLabel password = new JLabel();
+        password.setText("Password");
+        password.setBounds(80, 280, 700, 250);
+        f.add(password);
+        
+        JTextField nameTXT = new JTextField();
+        nameTXT.setBounds(200, 150, 200, 30);
+        f.add(nameTXT);
+        
+        JTextField usernameTXT = new JTextField();
+        usernameTXT.setBounds(200, 210, 200, 30);
+        f.add(usernameTXT);
+        
+        JTextField emailTXT = new JTextField();
+        emailTXT.setBounds(200, 270, 200, 30);
+        f.add(emailTXT);
+        
+        JTextField nohpTXT = new JTextField();
+        nohpTXT.setBounds(200, 330, 200, 30);
+        f.add(nohpTXT);
+        
+        JPasswordField passwordTXT = new JPasswordField();
+        passwordTXT.setBounds(200, 390, 200, 30);
+        f.add(passwordTXT);
+        
+        JButton btnRegist = new JButton();
+        btnRegist.setText("Register");
+        btnRegist.setBounds(200, 450, 100, 30);
+        f.add(btnRegist);
     }
     
 }
